@@ -1,0 +1,20 @@
+{
+  "name": "heliox-speech-unscrambler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "海上饱和潜水氦氧混合气语音实时校正系统（共振峰搬移 / AudioWorklet）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "~5.7.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.1"
+  }
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>氦语音实时校正系统 · 饱和潜水通信</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">He</span>
+          <div>
+            <h1>氦语音实时校正系统</h1>
+            <p class="subtitle">饱和潜水 Heliox 通信 · 全极点声道建模 / AudioWorklet 实时处理</p>
+          </div>
+        </div>
+        <div class="topbar-status" id="topbar-status"></div>
+      </header>
+      <nav class="tabs" id="tabs"></nav>
+      <main id="page-root"></main>
+      <footer class="footer">
+        本系统为离线运行的单页应用，无任何外部网络依赖 · 所有数据（潜水日志、潜水员声参数、词表）均为内置模拟数据
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
